@@ -14,3 +14,5 @@ turnover.head()
 # converting salary into categories
 turnover["salary"] = turnover["salary"].astype('category').cat.reorder_categories(['low', 'medium', 'high']).cat.codes
 turnover.head()
+
+
